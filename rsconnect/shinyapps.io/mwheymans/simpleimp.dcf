@@ -1,0 +1,12 @@
+name: simpleimp
+title: simpleimp
+username:
+account: mwheymans
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 689389
+bundleId: 1856271
+url: https://mwheymans.shinyapps.io/simpleimp/
+when: 1549318473.29235
+asMultiple: FALSE
+asStatic: FALSE
