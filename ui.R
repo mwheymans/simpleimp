@@ -29,11 +29,14 @@ ui <- fluidPage(
   mainPanel(
     
     h3("Imputed values for the Tampa scale variable"),
+    h4("In this plot the Pain scores are used to impute the missing values in the Tampascale variable, 
+       according to the Imputation method selected by the user in the left panel"),
     plotOutput("plot2"),
     h3("Regression line in completed data"),
+    h4("In this plot the effect of each Imputation method on the main analysis is shown, 
+       the relationship between the (independent) Tampa scale and (dependent) Pain variable"),
     plotOutput("plot1"),
     
-   
     h3("Linear regression model in the Completed data"),
     verbatimTextOutput("model1")
     

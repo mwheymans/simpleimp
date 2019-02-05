@@ -46,9 +46,8 @@ server <- function(input, output) {
   
   
   output$table1 <- renderTable({
-    table1 <- data.frame(head(selectedData1()[, c("Pain", "Tampascale")],20), 
-               Tampascale_orig)
-    names(table1) <- c("Pain", "Tampascale", "Tampascale_mis")
+    table1 <- data.frame(head(selectedData1()[, c("Pain", "Tampascale")],20))
+    names(table1) <- c("Pain", "Tampascale")
     table1
   })
   
